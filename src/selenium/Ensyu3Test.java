@@ -43,10 +43,10 @@ class Ensyu3Test {
 		
 		//user名入力
 		 WebElement element = driver.findElement(By.name("log"));
-		 element.sendKeys("nagahiro.hirata@rakus-partners.co.jp");
+		 element.sendKeys("mail");
 		 //pwd入力
 		WebElement element2 = driver.findElement(By.name("pwd"));
-		element2.sendKeys("nagahiro.hirata@rakus-partners.co.jp");
+		element2.sendKeys("pwd");
 		//ログインボタンクリック　
 		WebElement click = driver.findElement(By.name("wp-submit"));
 		click.click();
